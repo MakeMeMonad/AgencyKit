@@ -1,0 +1,23 @@
+# Swift
+.build/
+.swiftpm/xcode/
+*.xcodeproj
+*.xcworkspace
+DerivedData/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Python (ADK, etc.)
+
+__pycache__/
+.env
+*.pyc
+
+# Misc
+*.log
+
+# Other Editors 
+.idea/
+.vscode/
