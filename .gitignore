@@ -1,4 +1,4 @@
-# Swift
+# SwiftPM and Xcode
 .build/
 .swiftpm/xcode/
 *.xcodeproj
@@ -6,18 +6,31 @@
 DerivedData/
 *.xcuserstate
 
-# macOS
-.DS_Store
+# Swift source artifacts
+.swift-format-backup
 
-# Python (ADK, etc.)
-
+# Python
 __pycache__/
 .env
-*.pyc
+*.py[cod]
+*.pyo
 
-# Misc
-*.log
-
-# Other Editors 
+# JetBrains Python
 .idea/
+
+# dotNET F#/C#
+bin/
+obj/
+*.user
+*.suo
+*.dll
+*.exe
+*.pdb
+
+# VS Code project settings
 .vscode/
+.history/
+
+# Logs and OS metadata
+*.log
+.DS_Store
